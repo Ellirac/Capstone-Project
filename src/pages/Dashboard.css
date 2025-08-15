@@ -1,0 +1,25 @@
+.dash-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.dash-card {
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.booking-row {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.03);
+}
+
+@media (max-width:900px) {
+    .dash-grid {
+        grid-template-columns: 1fr;
+    }
+}
